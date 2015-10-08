@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0;}
+
+html, body {height: 100%;}
+
+#canvas {display: block; margin: 0 auto; width: 500px; height: 500px;}
