@@ -3,3 +3,8 @@
 html, body {height: 100%;}
 
 #canvas {display: block; margin: 0 auto;}
+
+
+.pen {position: absolute; top: 0; left: 40px; width: 40px; height: 100%; overflow-y: auto;}
+.pen img {cursor: pointer; display: block; margin: 0 auto; max-width: 40px; max-height: 40px;}
+.pen img.active {background: rgba(255, 0, 0, 0.3);}
